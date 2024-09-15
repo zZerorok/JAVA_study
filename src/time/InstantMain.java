@@ -25,7 +25,5 @@ public class InstantMain {
         // 조회
         long laterEpochSecond = later.getEpochSecond();
         System.out.println("laterEpochSecond = " + laterEpochSecond);
-
-
     }
 }
