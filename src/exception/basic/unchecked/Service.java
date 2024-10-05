@@ -20,4 +20,12 @@ public class Service {
         }
         System.out.println("정상 로직");
     }
+
+    /**
+     * 예외를 잡지 않아도 자연스럽게 상위로 넘어간다.
+     * 체크 예외와 다르게 throws 예외 선언을 하지 않아도 된다.
+     */
+    public void callThrow() {
+        client.call();
+    }
 }
